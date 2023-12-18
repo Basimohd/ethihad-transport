@@ -1,0 +1,21 @@
+{
+    "dir":"ltr",
+    "navbar":{
+        "one":"Home",
+        "two":"Service",
+        "three":"About",
+        "four":"Contact"
+    },
+    "hero":{
+        "subHeading" : "We Provide",
+        "Heading1": "Logistics asdfasdf",
+        "Heading2": "Services asdf",
+        "paragraph": "Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner."
+    },
+    "aboutUs": {
+        "aboutUs" : "About Us",
+        "heading" : "Ethihad Transport",
+        "paragraph": "Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner.Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner."
+
+    }
+}
