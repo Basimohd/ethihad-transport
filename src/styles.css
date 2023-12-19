@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.heading{
+    font-family: 'Clash Grotesk', sans-serif;
+}
+
+.para{
+    font-family: 'Inter', sans-serif;
+}
+
+.arabic{
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}

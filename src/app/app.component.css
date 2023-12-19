@@ -5,8 +5,6 @@
 .content {
     height: calc(100vh - 75px);
     margin-top: 75px;
-    margin-left: 50px;
-    margin-right: 50px;
     background-image: url("../assets/section-1.png");
     background-size: 100%;
     background-size: cover;
@@ -17,63 +15,98 @@
     left: 0 !important;
 }
 
-.wrapper {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#container {
+    margin: 0%;
+    
 }
 
-.slider {
-    width: 1000px;
-    height: 100px;
-    position: relative;
-    background: white;
-    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
-    display: flex;
+#circle {
+    bottom: 0;
+    padding-bottom: 100%;
     overflow: hidden;
 }
 
-.slide {
-    height: 100px;
-    display: flex;
-    align-items: center;
-    animation: slideshow 8s linear infinite;
+#circle text {
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 26px;
+    font-weight: bold;
 }
 
-.slide img {
-    height: 70px;
-    padding: 0 30px 0 30px;
-}
-
-@keyframes slideshow {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.slider::before,
-.slider::after {
-    height: 100px;
-    width: 200px;
-    position: absolute;
-    content: "";
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-    z-index: 2;
-}
-
-.slider::before {
+#circle svg {
     left: 0;
     top: 0;
+    width: 45%;
+    height: 300px;
+
+    -webkit-animation-name: rotate;
+    -moz-animation-name: rotate;
+    -ms-animation-name: rotate;
+    -o-animation-name: rotate;
+    animation-name: rotate;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+    -o-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+
 }
 
-.slider::after {
-    right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(360deg);
+    }
+
+    to {
+        -webkit-transform: rotate(0);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(360deg);
+    }
+
+    to {
+        -moz-transform: rotate(0);
+    }
+}
+
+@-ms-keyframes rotate {
+    from {
+        -ms-transform: rotate(360deg);
+    }
+
+    to {
+        -ms-transform: rotate(0);
+    }
+}
+
+@-o-keyframes rotate {
+    from {
+        -o-transform: rotate(360deg);
+    }
+
+    to {
+        -o-transform: rotate(0);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0);
+    }
 }

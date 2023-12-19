@@ -1,21 +1,46 @@
 {
-    "dir":"ltr",
-    "navbar":{
-        "one":"Home",
-        "two":"Service",
-        "three":"About",
-        "four":"Contact"
+    "dir": "ltr",
+    "navbar": {
+        "one": "Home",
+        "two": "Service",
+        "three": "About",
+        "four": "Contact"
     },
-    "hero":{
-        "subHeading" : "We Provide",
-        "Heading1": "Logistics asdfasdf",
-        "Heading2": "Services asdf",
-        "paragraph": "Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner."
+    "hero": {
+        "subHeading": "We Deliver",
+        "Heading1": "Innovative",
+        "Heading2": "Logistic Solutions",
+        "paragraph": "Redefining logistics, ensuring seamless transportation globally. Tailored solutions optimize cargo flow with reliable technology. Our adept team guarantees flawless coordination, prioritizing cost-effective client needs.",
+        "btn1": "Contact Us",
+        "btn2": "About Us",
+        "ringText" : "SCROLL TO EXPLORE MORE !"
     },
     "aboutUs": {
-        "aboutUs" : "About Us",
-        "heading" : "Ethihad Transport",
+        "aboutUs": "About Us",
+        "heading": "Ethihad Transport",
         "paragraph": "Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner.Ethihad Transport is one of the remarkable companies in the field of managing and operating central warehouses and presenting integrated logistic services to businesses and individuals in a professional, organized, and smooth manner."
-
+    },
+    "partner":"We partner with 100+ top global firms to ensure top-tier service",
+    "services": {
+        "heading": "What Services we Offer?",
+        "service1": "Freight Management",
+        "description1": "Efficiently coordinate transportation of goods, optimizing routes and carriers for cost-effective and timely delivery.",
+        "service2": "Warehousing Solutions",
+        "description2": "Modern, secure storage facilities offering diverse options to meet client needs,ensuring safe handling and distribution of inventory.",
+        "service3": "Supply Chain Optimization",
+        "description3": "Enhance sourcing to distribution, improving efficiency & cutting costs through analysis and strategic solutions."
+    },
+    "footer":{
+        "heading":"Get in Touch  for Seamless Logistics Solutions",
+        "description":"Experts in transportation solutions. From freight forwarding to warehousing, we're here to help. Reach out for personalized services. Let's enhance your transportation experience.",
+        "call":"Give Us A Call",
+        "email":"Send us an email",
+        "formHeading":"Drop Your Queries",
+        "form1":"Your Name",
+        "form2":"Email Address",
+        "form3":"Phone Number",
+        "form4":"Write Your Message here...",
+        "formButton":"Submit Your Query",
+        "copyright":"© Copyright 2023, All Rights Reserved by"
     }
 }
